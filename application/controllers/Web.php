@@ -29,9 +29,4 @@ class Web extends CI_Controller {
         $this->load->view('v_index',$data);
         $this->load->view('v_footer',$data);
     }
-    
-    public function data()
-    {
-       echo "Tutorial";
-    }
 }
